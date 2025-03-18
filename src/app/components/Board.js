@@ -22,7 +22,7 @@ function CreateBoard(){
                 ctx.moveTo(0, CELL_SIZE * y);
                 ctx.lineTo(worldWidth * CELL_SIZE, CELL_SIZE * y);
                 const isEvenRank = (y + x) % 2 === 0;
-                ctx.fillStyle = isEvenRank ? 'green' : 'lightgray';
+                ctx.fillStyle = isEvenRank ? 'lightgray' : 'green';
                 const file = x * CELL_SIZE;
                 const rank = y * CELL_SIZE;
                 ctx.fillRect(file, rank, CELL_SIZE, CELL_SIZE);
