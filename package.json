@@ -1,0 +1,14 @@
+{
+  "name": "jt-chess-board",
+  "version": "0.0.1",
+  "main": "/app/engineDriver.js",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "scripts": {
+    "start": "next dev"
+  }
+}
